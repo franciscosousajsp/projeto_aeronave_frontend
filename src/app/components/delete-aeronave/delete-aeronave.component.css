@@ -1,5 +1,5 @@
 .form{
-    height: 50%;
+    height: 380px;
     width: 89%;
     margin: 2rem auto 0 auto;
     text-align: center;
@@ -9,6 +9,7 @@ h1{
     font-weight: 500;
     font-size: 1.2rem;
     text-align: center;
+    padding: 2%;
 }
 
 .input{
