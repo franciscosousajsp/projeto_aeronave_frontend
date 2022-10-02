@@ -1,6 +1,6 @@
 .footer{
-    height: 5%;
-    position: fixed;
+    height: 30px;
+    
     bottom: 0;
     justify-content: flex-end;
     font-size: 0.8rem;

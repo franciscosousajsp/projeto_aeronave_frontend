@@ -1,20 +1,110 @@
-.content{
-    justify-content: center;
-    font-size: 0.8rem;
-    
+
+.titulo{
+  text-align: center;
+  margin-bottom: 12%;
+  font-size: 2.rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+
 }
 
-h1{
-    padding: 2%;
-    font-weight: 400;
-    text-align: center;
+.fundoVendida{
+  background-color: #44749d;
+  color: white;
+  font-weight: 200;
 }
 
-.tabela{
-    width: 90%;
-    margin-left: 5%;
+.fundoFabricante{
+  background-color:#0ba18c;
+  color: white;
+  font-weight: 200;
 }
 
- table {
-    width: 100%;
+.fundoFabricacao{
+  background-color:#09a6a3;
+  color: white;
+  font-weight: 200;
+
+}
+
+.fundoSemana{
+  background-color: #368986;
+  color: white;
+  font-weight: 200;
+  
+}
+
+.mat-card{
+    margin-top: -10%;
+    width: 60%;
+    height: 160px;
   }
+  
+  .content{
+      justify-content: center;
+      font-size: 0.8rem;
+      margin-top: 10%;
+      color: rgb(134, 128, 128);
+  }
+  
+  h1{
+      padding: 2%;
+      font-weight: 400;
+      text-align: center;
+      margin-top: -16%;
+  }
+  
+  .botao{
+      margin-left: 85.669%;
+      margin-bottom: -2%;
+    margin-top: -4%;
+  }
+ 
+  .tabela{
+      width: 90%;
+      margin-left: 3%;
+      padding: 2%;
+      margin-top: -2%;
+  }
+  
+  
+  .mat-form-field {
+      font-size: 14px;
+      width: 100%;
+    }
+  
+   table {
+      width: 100%;
+    }
+  
+    td.vendido{
+      color: rgb(39, 39, 121);
+    }
+  
+    td.nao_vendido{
+      color: rgb(165, 19, 14);
+    }
+  
+    .edit{
+      color: rgb(67 65 177);
+    }
+  
+    .delete{
+      color: rgb(213 39 39);
+      margin-left: 0.6rem;
+    }
+  
+    .mat-header{
+      width: 5rem;
+
+    }
+  .mat-header-cell{
+    font-weight: 200;
+    background-color: #4b4f8f;
+    color: white;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+   

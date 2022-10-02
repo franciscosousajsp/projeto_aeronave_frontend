@@ -1,0 +1,48 @@
+.form{
+    height: 380px;
+    width: 89%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2%;
+}
+
+.input{
+    width: 60%;
+}
+
+.inputAno{
+    margin-right: 8rem;
+    width: 30%;
+}
+
+.inputVenda{
+    margin-right: 0.9rem;
+    width: 18%;
+}
+
+.buttons{
+    width: 100%;
+}
+
+button{
+    margin-right: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+mat-label.vendido{
+    color: rgb(39, 39, 121);
+  }
+
+  mat-label.nao_vendido{
+    color: rgb(165, 19, 14);
+  }
+
+ 

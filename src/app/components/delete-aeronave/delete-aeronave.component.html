@@ -1,0 +1,33 @@
+<div  class="form mat-elevation-z12">
+    <h1>DELETRANDO CADASTRO</h1>
+    
+        <mat-form-field class="input" appearance="fill">
+            <mat-label>Marca</mat-label>
+            <input [(ngModel)] = "aeronave.marca" matInput disabled >
+          </mat-form-field>
+         
+              <mat-form-field class="input" appearance="fill">
+                  <mat-label>Modelo</mat-label>
+                  <input [(ngModel)] = "aeronave.descricao" matInput disabled>
+              </mat-form-field>
+      
+        <div class="venda">
+          <mat-form-field class="inputAno" appearance="fill">
+              <mat-label>Ano</mat-label>
+              <input [(ngModel)] = "aeronave.ano" matInput disabled>
+          </mat-form-field>          
+            <mat-form-field class="inputVenda" appearance="fill">
+                <mat-label class="{{retornaCorStatus(retornaStatus(aeronave.vendido))}}">  {{retornaStatus(aeronave.vendido)}}</mat-label>
+                <mat-select disabled>
+                </mat-select>
+              </mat-form-field>
+          </div>
+    
+   
+    <div class="buttons">
+        <button (click)="delete()" mat-stroked-button >Deletar</button>
+        <button (click)="cancel()" mat-stroked-button color="warn">Cancelar</button>
+    </div>
+
+  </div>
+
